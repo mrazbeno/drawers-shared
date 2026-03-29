@@ -1,0 +1,21 @@
+{
+  "name": "drawers-shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "perfect-freehand": "^1.2.2"
+  }
+}
