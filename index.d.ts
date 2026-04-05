@@ -40,6 +40,7 @@ export type DrawUpdateEvent = {
 };
 
 export type DrawEndEvent = {
+  strokeId: string
   roomId: string;
   userId: string;
   points: StrokePoint[];
