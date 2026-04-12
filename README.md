@@ -1,14 +1,14 @@
-This is a repository of the Drawers app.
+This repository contains shared types and contracts for the Drawers app.
 
-Other parts of this application are:
+Related repositories:
   -  **[drawers-frontend](https://github.com/mrazbeno/drawers-frontend)**
   -  [drawers-backend](https://github.com/mrazbeno/drawers-backend)
 
-# Content
-This repo contains shared content, mainly TypeScript types for the WebSocket messaging system of the collaborative drawing app called Drawers.
+# Drawers Shared
+This package contains shared TypeScript types used by the frontend and backend, primarily for the WebSocket messaging system and drawing-related data structures.
 
-# Usage example
-Inside an npm package.json:
+# Usage
+Add it as a dependency in `package.json`:
 ```json
 {
   "dependencies": {
