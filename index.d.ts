@@ -65,6 +65,7 @@ export interface StrokeHistoryRecord {
   svgPath: string;
   bounds: StrokeBounds;
   createdAt: number;
+  isVisible: boolean;
 }
 
 export type CanvasStrokeHistory = StrokeHistoryRecord[];
