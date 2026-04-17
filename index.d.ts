@@ -30,7 +30,7 @@ export type DrawStartEvent = {
   roomId: string;
   userId: string;
   points: StrokePoint[];
-  newBrushSettings?: BrushSettings;
+  brushSettings: BrushSettings;
 };
 
 export type DrawUpdateEvent = {
